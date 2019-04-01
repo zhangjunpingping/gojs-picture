@@ -3,9 +3,12 @@
 [官网](https://gojs.net/latest/samples/)
 
 
+
 ## 预览页面
 
 [预览](https://zhangjunpingping.github.io/gojs-picture/page/index.html)
+
+
 
 
 > 效果图
