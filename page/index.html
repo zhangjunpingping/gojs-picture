@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加用户</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel ="stylesheet" href="../css/index.css" />
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/go.js"></script>
+	<script src="../js/gifuct-js.min.js"></script>
+	<script src="../js/index.js"></script>
+</head>
+<body>
+	<div class="clearfloat heigth100" style="margin:10px 20px;">
+		<div class="simulate-left" id="menu" style="display:none"></div>
+		<div class="simulate-right" style="margin-left: 0px">
+			<div class="title">
+				<button onclick="effectImg()">配置效果图</button>
+				<button onclick="checkImg()" class="backgroudActive">效果查看</button>
+			</div>
+			<div id="myDiagramDiv" class="simulate-right-canvas border1"></div>
+		</div>
+	</div>
+	<div style="display: none" id="canvasDiv"></div>
+</body>
+</html>
